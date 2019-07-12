@@ -20,7 +20,7 @@ Then add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: ['@alkafinance/eslint-config', '@alkafinance/eslint-config-react' /* or '@alkafinance/eslint-config-react/native' */],
+  extends: ['@alkafinance/eslint-config', '@alkafinance/eslint-config-react/web' /* or '@alkafinance/eslint-config-react/native' */],
   rules: {
     // your overrides
   },
