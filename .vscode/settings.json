@@ -6,6 +6,9 @@
   "[javascript]": {
     "editor.formatOnSave": true
   },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
   "[json]": {
     "editor.formatOnSave": true
   },
@@ -14,6 +17,16 @@
   },
 
   "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "extensions": [".js", ".ts"]
+  },
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
 
   "files.autoSave": "off",
   "files.exclude": {

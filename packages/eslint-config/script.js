@@ -1,4 +1,5 @@
 // Primarily used for config files in the root or in scripts
+/** @type {import('./eslint').ESLintConfig} */
 module.exports = {
   rules: {
     'global-require': 'off',

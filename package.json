@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --cache .",
+    "lint": "eslint --ext .js,.ts --cache .",
     "find-new-rules": "wsrun --fast-exit find-new-rules",
     "prettier-check": "eslint --print-config packages/eslint-config/index.js | eslint-config-prettier-check",
     "test": "run-p --silent --print-label lint find-new-rules prettier-check",
@@ -34,12 +34,12 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,json,yml}": [
+    "**/*.{js,ts,json,yml,yaml}": [
       "prettier --write",
       "git add"
     ],
-    "**/*.js": [
-      "eslint --cache --fix",
+    "**/*.{js,ts}": [
+      "eslint --ext .js,.ts --cache --fix",
       "git add"
     ]
   },
@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@alkafinance/eslint-config": "0.0.0-development",
+    "@alkafinance/eslint-config-typescript": "0.0.0-development",
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
     "eslint": "^5.10.0",

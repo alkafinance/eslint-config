@@ -1,3 +1,4 @@
+/** @type {import('./eslint').ESLintConfig} */
 module.exports = {
   plugins: ['jest'],
   env: {

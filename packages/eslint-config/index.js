@@ -1,3 +1,4 @@
+/** @type {import('./eslint').ESLintConfig} */
 module.exports = {
   extends: [
     'airbnb-base',
@@ -5,6 +6,7 @@ module.exports = {
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
     'prettier',
+    'prettier/unicorn',
   ],
   rules: {
     // http://eslint.org/docs/rules
@@ -75,7 +77,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/catch-error-name': 'off',
     'unicorn/filename-case': 'off',
-    'unicorn/number-literal-case': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
 };
