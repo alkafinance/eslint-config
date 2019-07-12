@@ -15,6 +15,7 @@ module.exports = {
     'max-nested-callbacks': ['warn', {max: 3}],
     'max-params': ['warn', {max: 4}],
     'max-statements-per-line': ['warn', {max: 1}],
+    'no-console': 'off',
     'no-nested-ternary': 'off',
     'no-restricted-syntax': [
       'warn',
@@ -42,7 +43,7 @@ module.exports = {
     'no-magic-numbers': [
       'warn',
       {
-        ignore: [-1, 0, 1],
+        ignore: [-1, 0, 1, 2],
         ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: false,

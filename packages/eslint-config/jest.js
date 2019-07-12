@@ -5,6 +5,7 @@ module.exports = {
     jest: true,
   },
   rules: {
+    // http://eslint.org/docs/rules
     'max-nested-callbacks': 'off',
     // https://github.com/benmosher/eslint-plugin-import
     'import/no-extraneous-dependencies': 'off',

@@ -23,6 +23,8 @@ module.exports = {
     },
   },
   rules: {
+    // http://eslint.org/docs/rules
+    'global-require': 'off',
     // https://github.com/benmosher/eslint-plugin-import
     'import/extensions': [
       'error',
@@ -40,7 +42,7 @@ module.exports = {
     ],
     // https://github.com/Intellicode/eslint-plugin-react-native
     'react-native/no-color-literals': 'warn',
-    'react-native/no-inline-styles': 'warn',
+    'react-native/no-inline-styles': 'off',
     'react-native/no-raw-text': 'off', // buggy (https://github.com/Intellicode/eslint-plugin-react-native/issues/210)
     'react-native/no-unused-styles': 'error',
     'react-native/sort-styles': 'off',

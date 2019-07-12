@@ -2,6 +2,7 @@
 /** @type {import('./eslint').ESLintConfig} */
 module.exports = {
   rules: {
+    // http://eslint.org/docs/rules
     'global-require': 'off',
     // https://github.com/benmosher/eslint-plugin-import
     'import/no-extraneous-dependencies': 'off',
