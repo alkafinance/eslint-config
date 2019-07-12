@@ -5,6 +5,7 @@ module.exports = {
     'plugin:react/recommended',
     'prettier/react',
   ],
+  plugins: ['react-hooks'],
   settings: {
     'import/extensions': ['.js', 'jsx'],
   },
@@ -36,5 +37,8 @@ module.exports = {
     'react/prop-types': 'off',
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
+    // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
