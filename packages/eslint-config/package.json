@@ -1,0 +1,49 @@
+{
+  "name": "@alkafinance/eslint-config",
+  "version": "0.0.0-development",
+  "description": "Alka base ESLint config",
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "config",
+    "alka",
+    "styleguide"
+  ],
+  "repository": "alkafinance/eslint-config",
+  "homepage": "https://github.com/alkafinance/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/alkafinance/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ayan Yenbekbay",
+    "email": "ayan@alka.app"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "find-new-rules:base": "eslint-find-rules --unused index.js",
+    "find-new-rules:jest": "eslint-find-rules --unused test/fixtures/jest.js",
+    "find-new-rules": "run-p --silent find-new-rules:*",
+    "semantic-release": "semantic-release"
+  },
+  "release": {
+    "extends": "semantic-release-monorepo"
+  },
+  "peerDependencies": {
+    "eslint": "^5.7.0",
+    "prettier": ">= 0.11.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-unicorn": "^9.1.1"
+  },
+  "devDependencies": {}
+}

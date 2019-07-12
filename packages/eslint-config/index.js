@@ -1,0 +1,81 @@
+module.exports = {
+  extends: [
+    'airbnb-base',
+    'plugin:eslint-comments/recommended',
+    'plugin:promise/recommended',
+    'plugin:unicorn/recommended',
+    'prettier',
+  ],
+  rules: {
+    // http://eslint.org/docs/rules
+    'capitalized-comments': 'warn',
+    'max-depth': ['warn', {max: 4}],
+    'max-nested-callbacks': ['warn', {max: 3}],
+    'max-params': ['warn', {max: 4}],
+    'max-statements-per-line': ['warn', {max: 1}],
+    'no-nested-ternary': 'off',
+    'no-restricted-syntax': [
+      'warn',
+      {
+        selector: 'ForInStatement',
+        message:
+          'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+      },
+      {
+        selector: 'LabeledStatement',
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+      },
+      {
+        selector: 'WithStatement',
+        message:
+          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
+    ],
+    'no-use-before-define': 'off',
+    'no-implicit-coercion': [
+      'warn',
+      {boolean: true, number: true, string: true},
+    ],
+    'no-magic-numbers': [
+      'warn',
+      {
+        ignore: [-1, 0, 1],
+        ignoreArrayIndexes: true,
+        enforceConst: true,
+        detectObjects: false,
+      },
+    ],
+    'padding-line-between-statements': [
+      'warn',
+      {blankLine: 'always', prev: '*', next: 'return'},
+    ],
+    'prefer-destructuring': 'off',
+    // https://github.com/mysticatea/eslint-plugin-eslint-comments
+    'eslint-comments/no-restricted-disable': 'off',
+    'eslint-comments/no-unused-disable': 'warn',
+    'eslint-comments/no-unused-enable': 'warn',
+    'eslint-comments/no-use': [
+      'warn',
+      {
+        allow: [
+          'eslint-disable',
+          'eslint-disable-line',
+          'eslint-disable-next-line',
+          'eslint-enable',
+        ],
+      },
+    ],
+    // https://github.com/benmosher/eslint-plugin-import
+    'import/prefer-default-export': 'off',
+    // https://github.com/xjamundx/eslint-plugin-promise
+    'promise/always-return': 'off',
+    'promise/prefer-await-to-callbacks': 'off',
+    'promise/prefer-await-to-then': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
+    'unicorn/catch-error-name': 'off',
+    'unicorn/filename-case': 'off',
+    'unicorn/number-literal-case': 'off',
+    'unicorn/prevent-abbreviations': 'off',
+  },
+};

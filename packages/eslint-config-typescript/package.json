@@ -1,0 +1,49 @@
+{
+  "name": "@alkafinance/eslint-config-typescript",
+  "version": "0.0.0-development",
+  "description": "Alka ESLint config for our Typescript codebases",
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "config",
+    "alka",
+    "styleguide"
+  ],
+  "repository": "alkafinance/eslint-config",
+  "homepage": "https://github.com/alkafinance/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/alkafinance/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ayan Yenbekbay",
+    "email": "ayan@alka.app"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "find-new-rules:base": "eslint-find-rules --unused test/fixtures/index.js",
+    "find-new-rules:react": "eslint-find-rules --unused test/fixtures/react.js",
+    "find-new-rules:react-native": "eslint-find-rules --unused test/fixtures/react-native.js",
+    "find-new-rules": "exit 0; run-p --silent find-new-rules:*",
+    "semantic-release": "semantic-release"
+  },
+  "release": {
+    "extends": "semantic-release-monorepo"
+  },
+  "peerDependencies": {
+    "@alkafinance/eslint-config": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}

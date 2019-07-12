@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
+
+  "eslint.autoFixOnSave": true,
+
+  "files.autoSave": "off",
+  "files.exclude": {
+    "**/.git/": true,
+    "**/.DS_Store": true,
+    ".eslintcache": true
+  },
+
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.validate.enable": true
+}
