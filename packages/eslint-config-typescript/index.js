@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+  ],
   settings: {
     'import/resolver': {
       typescript: {
