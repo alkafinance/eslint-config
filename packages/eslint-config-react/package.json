@@ -24,7 +24,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "find-new-rules:index": "eslint-find-rules --unused test/fixtures/index.js",
+    "find-new-rules:web": "eslint-find-rules --unused test/fixtures/web.js",
     "find-new-rules:native": "eslint-find-rules --unused test/fixtures/native.js",
     "find-new-rules": "run-p --silent find-new-rules:*",
     "semantic-release": "semantic-release"
