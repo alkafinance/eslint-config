@@ -9,20 +9,23 @@
     "alka",
     "styleguide"
   ],
-  "repository": "alkafinance/eslint-config",
   "homepage": "https://github.com/alkafinance/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/alkafinance/eslint-config/issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Ayan Yenbekbay",
-    "email": "ayan@alka.app"
+  "author": "Ayan Yenbekbay <ayan@alka.app>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alkafinance/eslint-config.git"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "find-new-rules:web": "eslint-find-rules --unused test/fixtures/web.js",
     "find-new-rules:native": "eslint-find-rules --unused test/fixtures/native.js",

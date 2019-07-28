@@ -1,5 +1,5 @@
 {
-  "name": "@alkafinance/eslint-config",
+  "name": "@alkafinance/eslint-config-monorepo",
   "version": "0.0.0-development",
   "description": "Alka base ESLint config",
   "keywords": [
@@ -9,20 +9,23 @@
     "alka",
     "styleguide"
   ],
-  "repository": "alkafinance/eslint-config",
   "homepage": "https://github.com/alkafinance/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/alkafinance/eslint-config/issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Ayan Yenbekbay",
-    "email": "ayan@alka.app"
+  "author": "Ayan Yenbekbay <ayan@alka.app>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alkafinance/eslint-config.git"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "find-new-rules:base": "eslint-find-rules --unused index.js",
     "find-new-rules:jest": "eslint-find-rules --unused test/fixtures/jest.js",

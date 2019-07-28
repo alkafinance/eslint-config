@@ -1,8 +1,17 @@
 {
   "name": "@alkafinance/eslint-config",
   "private": true,
-  "repository": "alkafinance/eslint-config",
+  "homepage": "https://github.com/alkafinance/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/alkafinance/eslint-config/issues"
+  },
   "license": "MIT",
+  "author": "Ayan Yenbekbay <ayan@alka.app>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alkafinance/eslint-config.git"
+  },
   "engines": {
     "node": ">=6.0.0"
   },
