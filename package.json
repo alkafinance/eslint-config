@@ -1,5 +1,5 @@
 {
-  "name": "@alkafinance/eslint-config",
+  "name": "@alkafinance/eslint-config-monorepo",
   "private": true,
   "homepage": "https://github.com/alkafinance/eslint-config#readme",
   "bugs": {

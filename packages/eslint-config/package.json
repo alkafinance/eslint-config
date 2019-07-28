@@ -1,5 +1,5 @@
 {
-  "name": "@alkafinance/eslint-config-monorepo",
+  "name": "@alkafinance/eslint-config",
   "version": "0.0.0-development",
   "description": "Alka base ESLint config",
   "keywords": [
