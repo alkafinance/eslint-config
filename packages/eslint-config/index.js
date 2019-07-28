@@ -17,6 +17,7 @@ module.exports = {
     'max-params': ['warn', {max: 4}],
     'max-statements-per-line': ['warn', {max: 1}],
     'no-console': 'off',
+    'no-empty-function': 'off',
     'no-lonely-if': 'off',
     'no-nested-ternary': 'off',
     'no-restricted-syntax': [
@@ -37,7 +38,9 @@ module.exports = {
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
     ],
+    'no-underscore-dangle': 'off',
     'no-use-before-define': 'off',
+    'no-useless-constructor': 'off',
     'no-implicit-coercion': [
       'warn',
       {boolean: true, number: true, string: true},
