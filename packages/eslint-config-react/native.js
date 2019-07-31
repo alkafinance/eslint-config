@@ -41,7 +41,7 @@ module.exports = {
       },
     ],
     // https://github.com/Intellicode/eslint-plugin-react-native
-    'react-native/no-color-literals': 'warn',
+    'react-native/no-color-literals': 'off',
     'react-native/no-inline-styles': 'off',
     'react-native/no-raw-text': 'off', // buggy (https://github.com/Intellicode/eslint-plugin-react-native/issues/210)
     'react-native/no-unused-styles': 'error',
