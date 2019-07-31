@@ -53,6 +53,7 @@ module.exports = {
       {
         ignore: [-1, 0, 1, 2],
         ignoreArrayIndexes: true,
+        ignoreNumericLiteralTypes: true,
         ignoreEnum: true,
         enforceConst: true,
         detectObjects: false,
