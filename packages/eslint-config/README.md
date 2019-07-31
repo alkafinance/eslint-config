@@ -1,8 +1,10 @@
 # @alkafinance/eslint-config
 
-[![Version](https://img.shields.io/npm/v/@alkafinance/eslint-config.svg)](http://npm.im/@alkafinance/eslint-config)
-[![Dependency Status](https://david-dm.org/alkafinance/eslint-config/status.svg?path=packages/eslint-config)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config)
-[![devDependency Status](https://david-dm.org/alkafinance/eslint-config/dev-status.svg?path=packages/eslint-config)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config&type=dev)
+[![npm version](https://img.shields.io/npm/v/@alkafinance/eslint-config.svg)](http://npm.im/@alkafinance/eslint-config)
+[![CircleCI Status](https://img.shields.io/circleci/project/github/alkafinance/eslint-config/master.svg)](https://circleci.com/gh/alkafinance/workflows/eslint-config/tree/master)
+[![license: MIT](https://img.shields.io/npm/l/@alkafinance/eslint-config.svg)](./LICENSE)
+[![dependencies Status](https://david-dm.org/alkafinance/eslint-config/status.svg?path=packages/eslint-config)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config)
+[![devDependencies Status](https://david-dm.org/alkafinance/eslint-config/dev-status.svg?path=packages/eslint-config)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config&type=dev)
 
 Alka base ESLint config. Intended to be used together with [prettier](https://github.com/prettier/prettier).
 

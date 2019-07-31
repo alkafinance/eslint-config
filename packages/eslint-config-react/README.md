@@ -1,8 +1,10 @@
 # @alkafinance/eslint-config-react
 
-[![Version](https://img.shields.io/npm/v/@alkafinance/eslint-config-react.svg)](http://npm.im/@alkafinance/eslint-config-react)
-[![Dependency Status](https://david-dm.org/alkafinance/eslint-config/status.svg?path=packages/eslint-config-react)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-react)
-[![devDependency Status](https://david-dm.org/alkafinance/eslint-config/dev-status.svg?path=packages/eslint-config-react)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-react&type=dev)
+[![npm version](https://img.shields.io/npm/v/@alkafinance/eslint-config-react.svg)](http://npm.im/@alkafinance/eslint-config-react)
+[![CircleCI Status](https://img.shields.io/circleci/project/github/alkafinance/eslint-config/master.svg)](https://circleci.com/gh/alkafinance/workflows/eslint-config/tree/master)
+[![license: MIT](https://img.shields.io/npm/l/@alkafinance/eslint-config-react.svg)](./LICENSE)
+[![dependencies Status](https://david-dm.org/alkafinance/eslint-config/status.svg?path=packages/eslint-config-react)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-react)
+[![devDependencies Status](https://david-dm.org/alkafinance/eslint-config/dev-status.svg?path=packages/eslint-config-react)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-react&type=dev)
 
 Alka ESLint config for our React/React Native apps.
 

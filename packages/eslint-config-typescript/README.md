@@ -1,8 +1,10 @@
 # @alkafinance/eslint-config-typescript
 
-[![Version](https://img.shields.io/npm/v/@alkafinance/eslint-config-typescript.svg)](http://npm.im/@alkafinance/eslint-config-typescript)
-[![Dependency Status](https://david-dm.org/alkafinance/eslint-config/status.svg?path=packages/eslint-config-typescript)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-typescript)
-[![devDependency Status](https://david-dm.org/alkafinance/eslint-config/dev-status.svg?path=packages/eslint-config-typescript)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-typescript&type=dev)
+[![npm version](https://img.shields.io/npm/v/@alkafinance/eslint-config-typescript.svg)](http://npm.im/@alkafinance/eslint-config-typescript)
+[![CircleCI Status](https://img.shields.io/circleci/project/github/alkafinance/eslint-config/master.svg)](https://circleci.com/gh/alkafinance/workflows/eslint-config/tree/master)
+[![license: MIT](https://img.shields.io/npm/l/@alkafinance/eslint-config-typescript.svg)](./LICENSE)
+[![dependencies Status](https://david-dm.org/alkafinance/eslint-config/status.svg?path=packages/eslint-config-typescript)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-typescript)
+[![devDependencies Status](https://david-dm.org/alkafinance/eslint-config/dev-status.svg?path=packages/eslint-config-typescript)](https://david-dm.org/alkafinance/eslint-config?path=packages/eslint-config-typescript&type=dev)
 
 Alka ESLint config for our Typescript codebases.
 
