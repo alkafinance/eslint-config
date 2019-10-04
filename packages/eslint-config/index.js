@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     // http://eslint.org/docs/rules
     'capitalized-comments': 'warn',
+    'default-param-last': 'warn',
     'lines-between-class-members': 'off',
     'max-depth': ['warn', {max: 4}],
     'max-nested-callbacks': ['warn', {max: 4}],
@@ -18,8 +19,10 @@ module.exports = {
     'max-statements-per-line': ['warn', {max: 1}],
     'no-console': 'off',
     'no-empty-function': 'off',
+    'no-import-assign': 'off',
     'no-lonely-if': 'off',
     'no-nested-ternary': 'off',
+    'prefer-regex-literals': 'warn',
     'no-restricted-syntax': [
       'warn',
       {
