@@ -1,6 +1,6 @@
 /** @type {import('@alkafinance/eslint-config/eslint').ESLintConfig} */
 module.exports = {
-  extends: ['./base.js'],
+  extends: './base.js',
   plugins: ['react-native'],
   globals: {
     'react-native/react-native': true,

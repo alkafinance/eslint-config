@@ -45,7 +45,10 @@ Or in combination with the base config (recommended):
 
 ```js
 module.exports = {
-  extends: ['@alkafinance/eslint-config', '@alkafinance/eslint-config/<config-name>'],
+  extends: [
+    '@alkafinance/eslint-config',
+    '@alkafinance/eslint-config/<config-name>',
+  ],
 };
 ```
 
@@ -55,12 +58,10 @@ You can also use [ESLint@4 overrides](http://eslint.org/docs/user-guide/configur
 module.exports = {
   ...
   overrides: [
-    Object.assign(
-      {
-        files: ['**/__tests__/*-test.js', '**/__mocks__/*.js'],
-      },
-      require('@alkafinance/eslint-config/jest')
-    ),
+    {
+      files: ['**/__tests__/*-test.js', '**/__mocks__/*.js'],
+      extends: '@alkafinance/eslint-config/jest',
+    },
   ],
 };
 ```
