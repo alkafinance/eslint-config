@@ -51,12 +51,13 @@ module.exports = {
     '@typescript-eslint/no-magic-numbers': [
       'warn',
       {
+        detectObjects: false,
+        enforceConst: true,
         ignore: [-1, 0, 1, 2],
         ignoreArrayIndexes: true,
+        ignoreEnums: true,
         ignoreNumericLiteralTypes: true,
-        ignoreEnum: true,
-        enforceConst: true,
-        detectObjects: false,
+        ignoreReadonlyClassProperties: true,
       },
     ],
     '@typescript-eslint/no-non-null-assertion': 'warn',
@@ -64,6 +65,9 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/no-var-requires': 'off',
-    '@typescript-eslint/array-type': ['warn', 'array-simple'],
+    '@typescript-eslint/array-type': [
+      'warn',
+      {default: 'array-simple', readonly: 'array-simple'},
+    ],
   },
 };
