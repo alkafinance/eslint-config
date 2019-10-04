@@ -12,7 +12,7 @@ module.exports = {
   rules: {
     // http://eslint.org/docs/rules
     'class-methods-use-this': [
-      'error',
+      'warn',
       {
         exceptMethods: [
           'render',
@@ -29,7 +29,7 @@ module.exports = {
         ],
       },
     ],
-    'no-unused-expressions': ['error', {allowShortCircuit: true}],
+    'no-unused-expressions': ['warn', {allowShortCircuit: true}],
     // https://github.com/yannickcr/eslint-plugin-react
     'react/display-name': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -38,7 +38,7 @@ module.exports = {
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
     // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
-    'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'warn',
   },
 };

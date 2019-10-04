@@ -19,7 +19,7 @@ module.exports = {
     'default-case': 'off',
     'no-undef': 'off',
     'spaced-comment': [
-      'error',
+      'warn',
       'always',
       {
         line: {

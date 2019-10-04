@@ -18,7 +18,7 @@ module.exports = {
   rules: {
     // https://github.com/benmosher/eslint-plugin-import
     'import/extensions': [
-      'error',
+      'warn',
       'always',
       {
         js: 'never',
