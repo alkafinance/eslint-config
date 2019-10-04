@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     // http://eslint.org/docs/rules
     'capitalized-comments': 'warn',
+    'class-methods-use-this': 'off',
     'default-param-last': 'warn',
     'lines-between-class-members': 'off',
     'max-depth': ['warn', {max: 4}],
@@ -18,11 +19,22 @@ module.exports = {
     'max-params': ['warn', {max: 4}],
     'max-statements-per-line': ['warn', {max: 1}],
     'no-console': 'off',
+    'no-continue': 'off',
     'no-empty-function': 'off',
     'no-import-assign': 'off',
     'no-lonely-if': 'off',
+    'no-magic-numbers': [
+      'warn',
+      {
+        ignore: [-1, 0, 1, 2],
+        ignoreArrayIndexes: true,
+        enforceConst: true,
+        detectObjects: false,
+      },
+    ],
     'no-nested-ternary': 'off',
-    'prefer-regex-literals': 'warn',
+    'no-param-reassign': ['warn', {props: false}],
+    'no-plusplus': 'off',
     'no-restricted-syntax': [
       'warn',
       {
@@ -48,20 +60,12 @@ module.exports = {
       'warn',
       {boolean: true, number: true, string: true},
     ],
-    'no-magic-numbers': [
-      'warn',
-      {
-        ignore: [-1, 0, 1, 2],
-        ignoreArrayIndexes: true,
-        enforceConst: true,
-        detectObjects: false,
-      },
-    ],
     'padding-line-between-statements': [
       'warn',
       {blankLine: 'always', prev: '*', next: 'return'},
     ],
     'prefer-destructuring': 'off',
+    'prefer-regex-literals': 'warn',
     // https://github.com/mysticatea/eslint-plugin-eslint-comments
     'eslint-comments/no-restricted-disable': 'off',
     'eslint-comments/no-unused-disable': 'warn',
@@ -79,6 +83,7 @@ module.exports = {
     ],
     // https://github.com/benmosher/eslint-plugin-import
     'import/prefer-default-export': 'off',
+    'import/no-unassigned-import': 'warn',
     // https://github.com/xjamundx/eslint-plugin-promise
     'promise/always-return': 'off',
     'promise/prefer-await-to-callbacks': 'off',
@@ -86,6 +91,7 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/catch-error-name': 'off',
     'unicorn/filename-case': 'off',
+    'unicorn/no-unreadable-array-destructuring': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
 };
