@@ -14,6 +14,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'default-param-last': 'warn',
     'lines-between-class-members': 'off',
+    'max-classes-per-file': 'off',
     'max-depth': ['warn', {max: 4}],
     'max-nested-callbacks': ['warn', {max: 4}],
     'max-params': ['warn', {max: 4}],
@@ -90,7 +91,9 @@ module.exports = {
     'promise/prefer-await-to-then': 'off',
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/catch-error-name': 'off',
+    'unicorn/consistent-function-scoping': 'off',
     'unicorn/filename-case': 'off',
+    'unicorn/no-nested-ternary': 'off',
     'unicorn/no-unreadable-array-destructuring': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },

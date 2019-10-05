@@ -2,6 +2,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb/rules/react',
+    'eslint-config-airbnb/rules/react-hooks',
     'plugin:react/recommended',
     'prettier/react',
   ],
@@ -12,7 +13,7 @@ module.exports = {
   rules: {
     // http://eslint.org/docs/rules
     'class-methods-use-this': [
-      'warn',
+      'off',
       {
         exceptMethods: [
           'render',
@@ -29,10 +30,11 @@ module.exports = {
         ],
       },
     ],
+    'no-underscore-dangle': 'off',
     'no-unused-expressions': ['warn', {allowShortCircuit: true}],
     // https://github.com/yannickcr/eslint-plugin-react
     'react/display-name': 'off',
-    'react/jsx-no-useless-fragment': 'warn',
+    'react/jsx-no-useless-fragment': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/prefer-read-only-props': 'off',
     'react/prop-types': 'off',
