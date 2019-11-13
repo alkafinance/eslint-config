@@ -41,12 +41,12 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.2",
-    "@typescript-eslint/parser": "^2.3.2",
-    "eslint-import-resolver-typescript": "^1.1.1",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.0"
   },
   "devDependencies": {
-    "typescript": "^3.6.3"
+    "typescript": "^3.7.2"
   }
 }
