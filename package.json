@@ -70,6 +70,7 @@
     "prettier": "^1.19.1",
     "semantic-release": "15.9.12",
     "semantic-release-monorepo": "6.1.1",
+    "typescript": "^3.7.3",
     "wsrun": "^5.1.0"
   },
   "dependencies": {}

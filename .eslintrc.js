@@ -4,5 +4,9 @@ module.exports = {
     '@alkafinance/eslint-config',
     '@alkafinance/eslint-config/script',
     '@alkafinance/eslint-config-typescript',
+    '@alkafinance/eslint-config-typescript/requiring-type-checking',
   ],
+  parserOptions: {
+    project: './tsconfig.eslint.json',
+  },
 };

@@ -31,6 +31,7 @@ module.exports = {
 
 Additional configs include:
 
+- `'@alkafinance/eslint-config-typescript/requiring-type-checking'` for rules that require type information
 - `'@alkafinance/eslint-config-typescript/react'` for usage with [React](https://reactjs.org/)
 - `'@alkafinance/eslint-config-typescript/react-native'` for usage with [React Native](https://facebook.github.io/react-native/)
 
