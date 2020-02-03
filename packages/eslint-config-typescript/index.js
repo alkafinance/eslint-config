@@ -15,6 +15,7 @@ module.exports = {
   },
   rules: {
     // http://eslint.org/docs/rules
+    'array-callback-return': 'off',
     'consistent-return': 'off',
     'default-case': 'off',
     'no-undef': 'off',
