@@ -13,13 +13,14 @@ module.exports = {
     'capitalized-comments': 'warn',
     'class-methods-use-this': 'off',
     'default-param-last': 'warn',
+    'global-require': 'off',
     'grouped-accessor-pairs': 'warn',
     'lines-between-class-members': 'off',
     'max-classes-per-file': 'off',
     'max-depth': ['warn', {max: 4}],
     'max-nested-callbacks': ['warn', {max: 4}],
-    'max-params': ['warn', {max: 4}],
     'max-statements-per-line': ['warn', {max: 1}],
+    'no-await-in-loop': 'off',
     'no-console': 'off',
     'no-constructor-return': 'error',
     'no-continue': 'off',
@@ -65,10 +66,6 @@ module.exports = {
       'warn',
       {boolean: true, number: true, string: true},
     ],
-    'padding-line-between-statements': [
-      'warn',
-      {blankLine: 'always', prev: '*', next: 'return'},
-    ],
     'prefer-destructuring': 'off',
     'prefer-exponentiation-operator': 'warn',
     'prefer-regex-literals': 'warn',
@@ -89,7 +86,7 @@ module.exports = {
     ],
     // https://github.com/benmosher/eslint-plugin-import
     'import/prefer-default-export': 'off',
-    'import/no-unassigned-import': 'warn',
+    'import/named': 'off', // https://github.com/benmosher/eslint-plugin-import/issues/1282
     // https://github.com/xjamundx/eslint-plugin-promise
     'promise/always-return': 'off',
     'promise/prefer-await-to-callbacks': 'off',
