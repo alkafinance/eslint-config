@@ -10,8 +10,10 @@ module.exports = {
   ],
   rules: {
     // http://eslint.org/docs/rules
+    'arrow-body-style': ['warn', 'as-needed'],
     'capitalized-comments': 'warn',
     'class-methods-use-this': 'off',
+    curly: ['warn', 'all'],
     'default-param-last': 'warn',
     'global-require': 'off',
     'grouped-accessor-pairs': 'warn',
