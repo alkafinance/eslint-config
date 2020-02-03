@@ -34,10 +34,7 @@ module.exports = {
     'no-unused-expressions': ['warn', {allowShortCircuit: true}],
     // https://github.com/yannickcr/eslint-plugin-react
     'react/display-name': 'off',
-    'react/function-component-definition': [
-      'warn',
-      {namedComponents: 'arrow-function', unnamedComponents: 'arrow-function'},
-    ],
+    'react/function-component-definition': 'off',
     'react/jsx-no-script-url': 'error',
     'react/jsx-no-useless-fragment': 'off',
     'react/jsx-props-no-spreading': 'off',
