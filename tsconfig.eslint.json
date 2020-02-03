@@ -23,6 +23,6 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true
   },
-  "include": [".eslintrc.js", "**/*.js"],
+  "include": ["**/*.js", "**/.eslintrc.js"],
   "exclude": []
 }
