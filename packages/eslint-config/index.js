@@ -100,6 +100,7 @@ module.exports = {
     'unicorn/filename-case': 'off',
     'unicorn/no-nested-ternary': 'off',
     'unicorn/no-unreadable-array-destructuring': 'off',
+    'unicorn/prefer-exponentiation-operator': 'warn',
     'unicorn/prevent-abbreviations': 'off',
   },
 };
