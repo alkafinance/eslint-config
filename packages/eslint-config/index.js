@@ -30,6 +30,7 @@ module.exports = {
     'no-empty-function': 'off',
     'no-import-assign': 'off',
     'no-lonely-if': 'off',
+    'no-loop-func': 'off',
     'no-magic-numbers': [
       'warn',
       {
