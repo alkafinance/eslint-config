@@ -102,5 +102,6 @@ module.exports = {
     'unicorn/no-unreadable-array-destructuring': 'off',
     'unicorn/prefer-exponentiation-operator': 'warn',
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/regex-shorthand': 'off',
   },
-};
+}
